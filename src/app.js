@@ -18,11 +18,11 @@ import './styles/styles.scss';
 // Инициализация хранилища состояний.
 const store = configureStore();
 // Добавление первой траты.
-store.dispatch(addExpense({description: "Water bill", amount: 4500}));
-// Добавление второй траты.
-store.dispatch(addExpense({ description: "Gas bill", createdAt: 1000 }));
+// store.dispatch(addExpense({description: "Water bill", amount: 4500}));
+// // Добавление второй траты.
+// store.dispatch(addExpense({ description: "Gas bill", createdAt: 1000 }));
 
-store.dispatch(addExpense({ description: "Rent", amount: 109500 }));
+// store.dispatch(addExpense({ description: "Rent", amount: 109500 }));
 
 
 // // Применение фильтра
